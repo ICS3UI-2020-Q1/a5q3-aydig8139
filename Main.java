@@ -19,12 +19,17 @@ public class Main {
 
     int userNum = input.nextInt();
 
+    //declare variable to store the product of the numebrs multiplied
     int product = 1;
 
+    //creat for loop and declare variable to decrease the multiple number one by one
     for(int multiply = userNum; multiply >= 1; multiply--){
+      
       product = product*multiply;
       
     }
+    
+    //print out the answer
     System.out.println(userNum + "! = " + product);
   }
 }
